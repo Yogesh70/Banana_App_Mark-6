@@ -2,4 +2,4 @@
 
 Vanilla JS App used to translate English Language to Minion Language.
 
-Used Html,Css and Vanilla Javascript
+Made using Html,Css and Vanilla Javascript
