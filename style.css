@@ -14,10 +14,10 @@ body {
 }
 
 #input-area {
+  display: block;
   box-sizing: border-box;
   height: 20vh;
   width: 100%;
-  margin-top: 3rem;
   min-width: fit-content;
   font-size: 1rem;
   font-style: inherit;
@@ -26,6 +26,7 @@ body {
 .container-mid {
   margin: auto;
   align-content: center;
+  padding: 1rem;
   max-width: 600px;
 }
 
@@ -44,6 +45,7 @@ body {
 
 #output-area {
   box-sizing: border-box;
+  display: block;
   overflow: scroll;
   min-width: fit-content;
   width: 100%;
