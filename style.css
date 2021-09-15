@@ -35,7 +35,7 @@ body {
   min-width: fit-content;
 }
 
-.container-mid div{
+.container-mid div {
   margin-bottom: 0.4rem;
 }
 
@@ -46,6 +46,7 @@ body {
   width: 15vw;
   min-width: fit-content;
   margin: 1rem 0rem;
+  padding: 1rem;
   background-color: var(--yellow);
   font-family: inherit;
   font-style: inherit;
