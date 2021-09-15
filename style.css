@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  margin-bottom: 0;
+}
+
 body {
   margin: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -19,15 +23,20 @@ body {
   height: 20vh;
   width: 100%;
   min-width: fit-content;
+  margin-top: 2rem;
   font-size: 1rem;
   font-style: inherit;
 }
 
 .container-mid {
   margin: auto;
-  align-content: center;
   padding: 1rem;
   max-width: 600px;
+  min-width: fit-content;
+}
+
+.container-mid div{
+  margin-bottom: 0.4rem;
 }
 
 .btn-translate {
@@ -36,7 +45,7 @@ body {
   height: 10vh;
   width: 15vw;
   min-width: fit-content;
-  margin-top: 1rem;
+  margin: 1rem 0rem;
   background-color: var(--yellow);
   font-family: inherit;
   font-style: inherit;
@@ -45,12 +54,10 @@ body {
 
 #output-area {
   box-sizing: border-box;
-  display: block;
   overflow: scroll;
-  min-width: fit-content;
   width: 100%;
-  height: 10vh;
-  padding: 0.3rem 0.2rem;
+  min-height: 10vh;
+  max-height: 20vh;
   font-size: 1rem;
   font-style: inherit;
 }
@@ -78,4 +85,9 @@ body {
 
 .footer-container div {
   font-size: x-large;
+}
+
+.footer-container p {
+  margin: auto;
+  max-width: 600px;
 }
